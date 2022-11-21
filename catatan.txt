@@ -1,0 +1,47 @@
+apikey v3 : 4d539679c72812b336dfc35379ffabe1
+Apiread v4 : eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI0ZDUzOTY3OWM3MjgxMmIzMzZkZmMzNTM3OWZmYWJlMSIsInN1YiI6IjYzMmRkMDkyYzUyNWM0MDA5MWM3M2UxZSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.EqKsZ7dxCV3T_OPeQorFNX_cKIuDVq78v2a1P0xX11U
+
+path : https://api.themoviedb.org/3/movie/76341?api_key=<<api_key>>
+path-detail-movie: https://api.themoviedb.org/3/movie/343611?api_key={api_key}
+img_path : https://image.tmdb.org/t/p/w500/[path]
+
+DISCOVERY
+/discovery/movie?
+/dicovery/ty?
+
+---detail -> movie/{id}?language
+
+POPULAR
+/movie/popular?
+
+UPCOMING
+/movie/upcoming
+
+SIMILIAR/SERUPA
+/movie/{movie_id}/similar
+
+RECOMMENDATIONS
+/movie/{movie_id}/recommendation
+
+SEARCH
+search/movie?api_key={api_key}&query={title}
+
+GENRE
+/genre/movie/list
+
+--TV SHOW--
+
+TV POPULAR
+/tv/popular
+
+TV ON AIR
+/tv/on_the_air
+
+TV AIRING TODAY
+/tv/airing_today
+
+TV LATEST
+/tv/latest
+
+TV RECOMMEDATIONS
+/tv/{tv_id}/recommendations
